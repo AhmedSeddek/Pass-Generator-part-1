@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742525E21E294D0F00C27876 /* SwipeManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742525E11E294D0F00C27876 /* SwipeManagement.swift */; };
+		74519D5A1E22390A00EA58D8 /* InformationManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74519D591E22390A00EA58D8 /* InformationManagement.swift */; };
+		74584EAC1E5AB45400B55C91 /* AccessDenied.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74584EAA1E5AB45400B55C91 /* AccessDenied.wav */; };
+		74584EAD1E5AB45400B55C91 /* AccessGranted.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74584EAB1E5AB45400B55C91 /* AccessGranted.wav */; };
+		74584EAF1E5AB47D00B55C91 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74584EAE1E5AB47D00B55C91 /* Sounds.swift */; };
+		74A4EDB91E26C27A00C01135 /* PassGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4EDB81E26C27A00C01135 /* PassGenerator.swift */; };
+		74A4EDBB1E26D20C00C01135 /* TestCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4EDBA1E26D20C00C01135 /* TestCode.swift */; };
 		74D2571D1E210642002DBD51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2571C1E210642002DBD51 /* AppDelegate.swift */; };
 		74D2571F1E210642002DBD51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2571E1E210642002DBD51 /* ViewController.swift */; };
 		74D257221E210642002DBD51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D257201E210642002DBD51 /* Main.storyboard */; };
@@ -14,6 +21,9 @@
 		74D257271E210642002DBD51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D257251E210642002DBD51 /* LaunchScreen.storyboard */; };
 		74D257321E210642002DBD51 /* PassGenerator_ver_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D257311E210642002DBD51 /* PassGenerator_ver_1_0Tests.swift */; };
 		74D2573D1E210642002DBD51 /* PassGenerator_ver_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2573C1E210642002DBD51 /* PassGenerator_ver_1_0UITests.swift */; };
+		74D2574B1E21082D002DBD51 /* SystemStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2574A1E21082D002DBD51 /* SystemStructure.swift */; };
+		74D2574D1E212E4A002DBD51 /* AccessManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2574C1E212E4A002DBD51 /* AccessManagement.swift */; };
+		74EA68DC1E282B6400C4DA22 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA68DB1E282B6400C4DA22 /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742525E11E294D0F00C27876 /* SwipeManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeManagement.swift; sourceTree = "<group>"; };
+		74519D591E22390A00EA58D8 /* InformationManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationManagement.swift; sourceTree = "<group>"; };
+		74584EAA1E5AB45400B55C91 /* AccessDenied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessDenied.wav; sourceTree = "<group>"; };
+		74584EAB1E5AB45400B55C91 /* AccessGranted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessGranted.wav; sourceTree = "<group>"; };
+		74584EAE1E5AB47D00B55C91 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		74A4EDB81E26C27A00C01135 /* PassGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGenerator.swift; sourceTree = "<group>"; };
+		74A4EDBA1E26D20C00C01135 /* TestCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCode.swift; sourceTree = "<group>"; };
 		74D257191E210642002DBD51 /* PassGenerator ver 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PassGenerator ver 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D2571C1E210642002DBD51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D2571E1E210642002DBD51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,9 @@
 		74D257381E210642002DBD51 /* PassGenerator ver 1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PassGenerator ver 1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D2573C1E210642002DBD51 /* PassGenerator_ver_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassGenerator_ver_1_0UITests.swift; sourceTree = "<group>"; };
 		74D2573E1E210642002DBD51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D2574A1E21082D002DBD51 /* SystemStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemStructure.swift; sourceTree = "<group>"; };
+		74D2574C1E212E4A002DBD51 /* AccessManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessManagement.swift; sourceTree = "<group>"; };
+		74EA68DB1E282B6400C4DA22 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,16 @@
 				74D257231E210642002DBD51 /* Assets.xcassets */,
 				74D257251E210642002DBD51 /* LaunchScreen.storyboard */,
 				74D257281E210642002DBD51 /* Info.plist */,
+				74D2574A1E21082D002DBD51 /* SystemStructure.swift */,
+				74D2574C1E212E4A002DBD51 /* AccessManagement.swift */,
+				74A4EDB81E26C27A00C01135 /* PassGenerator.swift */,
+				74519D591E22390A00EA58D8 /* InformationManagement.swift */,
+				742525E11E294D0F00C27876 /* SwipeManagement.swift */,
+				74A4EDBA1E26D20C00C01135 /* TestCode.swift */,
+				74EA68DB1E282B6400C4DA22 /* HelperFunctions.swift */,
+				74584EAE1E5AB47D00B55C91 /* Sounds.swift */,
+				74584EAA1E5AB45400B55C91 /* AccessDenied.wav */,
+				74584EAB1E5AB45400B55C91 /* AccessGranted.wav */,
 			);
 			path = "PassGenerator ver 1.0";
 			sourceTree = "<group>";
@@ -230,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D257271E210642002DBD51 /* LaunchScreen.storyboard in Resources */,
+				74584EAD1E5AB45400B55C91 /* AccessGranted.wav in Resources */,
 				74D257241E210642002DBD51 /* Assets.xcassets in Resources */,
 				74D257221E210642002DBD51 /* Main.storyboard in Resources */,
+				74584EAC1E5AB45400B55C91 /* AccessDenied.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +289,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D2571F1E210642002DBD51 /* ViewController.swift in Sources */,
+				74EA68DC1E282B6400C4DA22 /* HelperFunctions.swift in Sources */,
+				742525E21E294D0F00C27876 /* SwipeManagement.swift in Sources */,
+				74A4EDBB1E26D20C00C01135 /* TestCode.swift in Sources */,
 				74D2571D1E210642002DBD51 /* AppDelegate.swift in Sources */,
+				74D2574B1E21082D002DBD51 /* SystemStructure.swift in Sources */,
+				74519D5A1E22390A00EA58D8 /* InformationManagement.swift in Sources */,
+				74584EAF1E5AB47D00B55C91 /* Sounds.swift in Sources */,
+				74A4EDB91E26C27A00C01135 /* PassGenerator.swift in Sources */,
+				74D2574D1E212E4A002DBD51 /* AccessManagement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +522,7 @@
 				74D257431E210642002DBD51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74D257441E210642002DBD51 /* Build configuration list for PBXNativeTarget "PassGenerator ver 1.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +531,7 @@
 				74D257461E210642002DBD51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74D257471E210642002DBD51 /* Build configuration list for PBXNativeTarget "PassGenerator ver 1.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +540,7 @@
 				74D257491E210642002DBD51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
